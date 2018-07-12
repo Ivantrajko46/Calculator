@@ -1,0 +1,36 @@
+body {
+    background: {
+        color: #948f8f;
+    }
+}
+
+.right-position {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+
+.ekrani {
+
+    color: #54fd11;
+    font: {
+        size: 1.7rem;
+    }
+    &:first-child {
+        height: 150px;
+        @extend .right-position;
+    }
+    &:last-child {
+        height: 150px;
+        @extend .right-position;
+    }
+}
+
+.card {
+
+    background: #f3f0e8;
+    border: 2px solid black;
+    box-shadow: 5px 5px 30px 2px #000;
+}

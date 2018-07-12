@@ -1,0 +1,28 @@
+body {
+  background-color: #948f8f; }
+
+.right-position, .ekrani:first-child, .ekrani:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: right; }
+
+.ekrani {
+  color: #54fd11;
+  font-size: 1.7rem; }
+  .ekrani:first-child {
+    height: 150px; }
+  .ekrani:last-child {
+    height: 150px; }
+
+.card {
+  background: #f3f0e8;
+  border: 2px solid black;
+  -webkit-box-shadow: 5px 5px 30px 2px #000;
+  box-shadow: 5px 5px 30px 2px #000; }
